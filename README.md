@@ -2,7 +2,8 @@
 
 ## Overview
 
-This repository contains a Linux kernel module for the DecaWave DW1000 ultra-wideband (UWB) radio chip, along with a reference design for a Raspberry Pi HAT (Hardware Attached on Top) PCB based on the DWM1000 module. The DW1000 is an IEEE 802.15.4 UWB radio chip capable of timestamping received and transmitted packets with a nominal resolution of 64GHz (15ps), allowing for distance measurements with theoretical precision of around 0.5cm.
+This repository contains a Linux kernel module for the DecaWave DW1000 ultra-wideband (UWB) radio chip, along with a reference design for a Raspberry Pi HAT (Hardware Attached on Top) PCB based on the DWM1000 module. The DW1000 is an IEEE 802.15.4 UWB radio chip capable of timestamping received and transmitted packets with a nominal resolution of 64GHz (15ps), allowing for distance measurements with theoretical precision of around 0.5cm. The DW1000 to be used to construct a viable indoor positioning system.  (Note that sub-centimetre resolution is
+extremely unlikely to be achieved in practice.)
 
 ## Repository Structure
 
